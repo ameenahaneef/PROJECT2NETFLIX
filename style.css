@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background: black;
+    color:white;
+}
+.header{
+    width:100%;
+    height:85vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.7)),
+url(images/img2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width:148px;
+    height:40px;
+    margin-top: 25px;
+    padding-left: 160px;
+    cursor:pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0;
+    margin-right: 170px;
+}
+.btn1{
+    margin-top: 25px;
+    width:124px;
+    height:35px;
+    background: transparent;
+    color: white;
+    border:0;
+    border:1px solid  gray;
+    border-radius:6px;
+    font-size: 18px;
+    cursor:pointer;
+}
+.btn2{
+    margin-top: 25px;
+    margin-left:20px;
+    width:85px;
+    height:32px;
+    background-color: red;
+    color: white;
+    border:0;
+    border-radius:6px;
+    cursor:pointer;
+}
+.content{
+    text-align: center;
+    margin-top: 180px;
+   line-height: 60px;
+}
+#head{
+    font-size:48px;
+}
+.content h3{
+    font-size: 27px;
+    font-weight: 400;
+}
+.content p{
+    font-size:21px;
+}
+input{
+    width:400px;
+    height:60px;
+    background: transparent;
+    border:0;
+    border:1px solid gray;
+    border-radius: 5px;
+    font-size:18px;
+    padding-left:15px;
+}
+.btn3{
+    width:200px;
+    height:60px;
+    background-color: red;
+    border:0;
+    border-radius:3px;
+    font-size: 25px;
+    color:white;
+    font-weight:bold;
+}
+hr{
+    width:100%;
+    height:8px;
+    background-color: rgb(35,35,35);
+    border:0; 
+}
+.first{
+    width:100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.firstl{
+    padding-left:20px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+ p{
+    font-size:22px;
+    line-height:30px;
+}
+.firstr img{
+    width:600px;
+    padding-top:10px;
+}
+.firstr video{ 
+    position: absolute;
+    left: 806px;
+    top: 825px;
+    width: 436px;
+    z-index: -1;
+} 
+.second{
+    width:100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.second img{
+    width:500px;
+}
+.third{
+    width:100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.third img{
+    width:500px;
+}
+.four{
+    width:100%;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.four img{
+    width:500px;
+}
+.five{
+    width:100%;
+    height:800px;
+}
+.contain{
+    margin:60px 170px;
+}
+.same{
+    width:100%;
+    height:80px;
+    background-color:rgb(52, 51, 51);
+    margin-top:10px;
+    cursor: pointer;
+    display:flex;
+    justify-content: space-between;
+}
+.same:hover{
+    background-color:rgb(99, 98, 98)
+}
+.head1{
+   padding-left: 200px;
+   margin-bottom: 25px;
+}
+.same p{
+    font-size: 50px;
+    padding:20px;
+}
+.same h3{
+    font-size: 24px;
+    padding:20px;
+}
+.down{
+    text-align: center;
+    margin-top: 40px;
+}
+.innerfoot{
+    margin:60px 170px;
+}
+.footer{
+    width:100%;
+    height:350px;
+}
+.foot1 a{
+    text-decoration: none;
+    color:white;
+    transform:translate(1px);
+    font-size:18px;
+}
+.foot1 p{
+    font-size: 18px;
+}
+.foot2{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.foot2l a{
+    display:block;
+    padding-top:15px;
+    color:white;
+    font-size:15px;
+}
+.foot3{
+    padding-top: 2px;
+}
+.foot3 p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.third2 video{
+    position:absolute;
+    left: 879px;
+    width: 298px;
+    padding-top: 25px;
+    z-index: -1;
+}
+
+
+
+
